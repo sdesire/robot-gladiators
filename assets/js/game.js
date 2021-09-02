@@ -48,7 +48,7 @@ var fight = function() {
      var confirmSkip = window.confirm("Are you sure you'd like to quit?");
      
      // if yes (true), leave fight
-     if (confirmskip) {
+     if (confirmskip){
        window.alert(playerName + "has to decide to skipe this fight. Goodbye!");
        // subtract money from playerMoney for skipping
        playerMoney = playerMoney  - 2;
